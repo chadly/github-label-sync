@@ -2,7 +2,7 @@
 
 > Sync labels across all repositories in an organization
 
-This is how we keep the labels in sync across all repositories in the `civicsource` organization.
+This is how we keep the labels in sync across all repositories in the [`civicsource` organization](https://github.com/civicsource).
 
 ## Usage
 
