@@ -62,6 +62,13 @@ namespace Archon.LabelSync
 					Description = "Just some shit that somebody's gotta do",
 					Color = "bfd4f2"
 				};
+
+				yield return new Label
+				{
+					Name = "epic",
+					Description = "BIG...so big",
+					Color = "2b7696"
+				};
 			}
 		}
 	}
