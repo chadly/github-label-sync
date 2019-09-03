@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Archon.LabelSync
+namespace LabelSync
 {
 	/// <summary>
 	/// https://developer.github.com/v3/activity/events/types/#pullrequestevent

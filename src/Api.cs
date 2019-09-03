@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Archon.Http;
 using Newtonsoft.Json;
 
-namespace Archon.LabelSync
+namespace LabelSync
 {
 	public static class Api
 	{

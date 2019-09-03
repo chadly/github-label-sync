@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Archon.LabelSync
+namespace LabelSync
 {
 	public class Label
 	{
