@@ -4,7 +4,7 @@
 
 ## Usage
 
-[Generate an API access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) [for your account](https://github.com/settings/tokens) with repo permissions.
+[Generate an API access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) for [your account](https://github.com/settings/tokens) with repo permissions.
 
 ```bash
 cd src
