@@ -20,7 +20,7 @@ namespace LabelSync
 
 			using (var github = CreateGithubClient(args[0]))
 			{
-				var repos = await github.GetReposForOrg("civicsource");
+				var repos = await github.GetReposForOrg("runlyio");
 
 				Console.WriteLine($"Retrieved {repos.Count()} respositories");
 				Console.WriteLine();
@@ -80,7 +80,7 @@ namespace LabelSync
 
 			client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(Api.MediaType));
 			client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("token", apiToken);
-			client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("civicsource-label-sync", "v1.0.0"));
+			client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("github-label-sync", "v1.0.0"));
 
 			return client;
 		}
