@@ -17,57 +17,71 @@ namespace LabelSync
 				yield return new Label
 				{
 					Name = "bug",
-					Description = "That shit you think is working...it broke",
+					Description = "Something isn't working",
 					Color = "d73a4a"
 				};
 
 				yield return new Label
 				{
-					Name = "explore",
-					Description = "Come with me on an adventure of exploring",
-					Color = "f9e6c0"
+					Name = "duplicate",
+					Description = "This issue or pull request already exists",
+					Color = "cfd3d7"
 				};
 
 				yield return new Label
 				{
-					Name = "feature",
-					Description = "WE NEED ALL THE FEATUREZ",
-					Color = "05bafc"
+					Name = "enhancement",
+					Description = "New feature or request",
+					Color = "a2eeef"
 				};
 
 				yield return new Label
 				{
-					Name = "improvement",
-					Description = "Not a feature, not a bug, just something that will maybe might make things better?",
-					Color = "0e8a16"
+					Name = "invalid",
+					Description = "This doesn't seem right",
+					Color = "e4e669"
 				};
 
 				yield return new Label
 				{
-					Name = "performance",
-					Description = "Make things faster...but not too fast",
-					Color = "8f62ba"
+					Name = "maintenance",
+					Description = "Project maintenance or refactoring that adds no features or bug fixes.",
+					Color = "fff59a"
 				};
 
 				yield return new Label
 				{
-					Name = "refactor",
-					Description = "Change everything...but not really",
-					Color = "f4afa6"
+					Name = "major",
+					Description = "PRs with breaking changes requiring a major version bump according to SemVer",
+					Color = "b22f21"
 				};
 
 				yield return new Label
 				{
-					Name = "task",
-					Description = "Just some shit that somebody's gotta do",
-					Color = "bfd4f2"
+					Name = "minor",
+					Description = "PRs with new features requiring a minor version bump according to SemVer",
+					Color = "f69448"
 				};
 
 				yield return new Label
 				{
-					Name = "epic",
-					Description = "BIG...so big",
-					Color = "2b7696"
+					Name = "patch",
+					Description = "PRs with bug fixes requiring a patch version bump according to SemVer",
+					Color = "eaf42c"
+				};
+
+				yield return new Label
+				{
+					Name = "question",
+					Description = "Further information is requested",
+					Color = "d876e3"
+				};
+
+				yield return new Label
+				{
+					Name = "wontfix",
+					Description = "This will not be worked on",
+					Color = "ffffff"
 				};
 			}
 		}
